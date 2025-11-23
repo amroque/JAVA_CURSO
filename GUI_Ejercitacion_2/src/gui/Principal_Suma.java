@@ -254,7 +254,7 @@ public class Principal_Suma extends javax.swing.JFrame {
         
        int num1,num2,suma,resta,multiplicacion;
        double division;
-        if(txtNum2.getText().equals("")){
+        if(txtNum1.getText().equals("")||txtNum2.getText().equals("")){
             JOptionPane.showMessageDialog(rootPane, "Inserte el segundo número para poder realizar las operaciones");
         }else {
             if (txtNum2.getText().equals("0")) {
